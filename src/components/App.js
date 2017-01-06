@@ -5,6 +5,8 @@ const App = ({ children }) => (
   <div>
     <IndexLink to="/">Home</IndexLink>
     {' | '}
+    <Link to="/todos">Todos</Link>
+    {' | '}
     <Link to="/about">About</Link>
     <br/><br/>
     {children}
